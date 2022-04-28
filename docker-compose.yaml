@@ -1,6 +1,5 @@
 services:
   ss:
     build: .
-    shm_size: 1gb
     ports:
-      - "80:80"
+      - "443:443"
