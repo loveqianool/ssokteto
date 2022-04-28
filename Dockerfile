@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM teddysun/shadowsocks-rust:alpine
 
 ADD entrypoint.sh /opt/entrypoint.sh
 
