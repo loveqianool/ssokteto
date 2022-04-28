@@ -19,7 +19,7 @@ cat << EOF > /etc/shadowsocks-rust/config.json
             "mode": "tcp_and_udp",
             "dns": "1.1.1.1",
             "plugin":"v2ray-plugin",
-            "plugin_opts":"server;tls;path=${WSPATH};loglevel=none"
+            "plugin_opts":"server;tls;host=ss-loveqianool.cloud.okteto.net;loglevel=none"
         }
     ]
 }
