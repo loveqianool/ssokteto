@@ -1,7 +1,7 @@
 #!/bin/sh
 PASSWORD=123123
 WSPATH=/TS/recharge/tzUrl.html
-PORT=80
+PORT=443
 
 cat << EOF > /etc/shadowsocks-rust/config.json
 {
