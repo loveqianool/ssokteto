@@ -1,5 +1,0 @@
-services:
-  ss:
-    build: .
-    ports:
-      - "443:443"
